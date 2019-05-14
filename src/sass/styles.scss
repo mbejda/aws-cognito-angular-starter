@@ -1,0 +1,66 @@
+
+/* You can add global styles to this file, and also import other style files */
+@import "~@fortawesome/fontawesome-free/css/all.css";
+@import "~bootstrap/scss/_functions";
+@import "~bootstrap/scss/_variables";
+$body-color: red;
+@import "~bootstrap/scss/bootstrap";
+@import './variables';
+@import './mixins';
+
+
+
+@include media-breakpoint-up(xs) {
+
+  .sidebar {
+    width:100%;
+    position:absolute;
+    background-color: white;
+  }
+
+
+  .sidebar-nav.collapsing,
+  .sidebar-nav.show {
+    display: block !important;
+  }
+  .sidebar-nav {
+    display: none;
+    position: absolute;
+    width:100%;
+    background-color:white;
+    z-index:1;
+  }
+  .page {
+    width: 100%;
+  }
+
+}
+/// IPADS
+@include media-breakpoint-up(sm) {
+  .sidebar {
+    width:20%;
+    position:absolute;
+    background-color: white;
+  }
+
+}
+@include media-breakpoint-up(md) {
+
+
+  .sidebar-nav {
+    display: block !important;
+    position: relative;
+  }
+  .page {
+    width: 80%;
+    margin-left: 20%;
+  }
+
+}
+@include media-breakpoint-up(lg) {
+
+}
+@include media-breakpoint-up(xl) {
+
+}
+
