@@ -45,7 +45,7 @@
     "firebase": "^6.0.2",
     "jquery": "^3.4.1",
     "karma-remap-istanbul": "0.6.0",
-    "morgan": "~1.7.0",
+    "morgan": "~1.9.1",
     "ngx-bootstrap": "^4.1.1",
     "popper.js": "^1.15.0",
     "rxjs": "^6.5.2",
